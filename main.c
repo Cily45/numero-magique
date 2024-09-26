@@ -21,7 +21,7 @@ int main(){
 			printf("Le nombre magique est plus petit!\n");
 			}		
 
-		else{
+		else if(userNumber < randomNumber){
 			printf("Le nombre magique est plus grand!\n");
 			
 			}
