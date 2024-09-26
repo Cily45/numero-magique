@@ -8,27 +8,23 @@ int main(){
 	printf("Bienvenue dans le jeu du numéro magique!\n");
 	int count = 1;
 
-	while(1)
-		{
-		int number;
+	while(1){
+		int userNumber;
 		printf("Veuillez saisir un nombre entre 1 et 100: ");
-		scanf("%d",&number);
-		if(number == randomNumber)
-			{
+		scanf("%d",&userNumber);
+		if(userNumber == randomNumber){
 			printf("Félicitations, vous avez gagnée c'était bien le %d!\n", randomNumber);
 			break;
 			}
 
-		else if(number > randomNumber)
-			{
+		else if(userNumber > randomNumber){
 			printf("Le nombre magique est plus petit!\n");
 			}		
 
-		else
-			{
+		else{
 			printf("Le nombre magique est plus grand!\n");
 			
-}
+			}
 		printf("Ceci était votre essai n°%d.\n\n", count);
 		count++;
 		}
