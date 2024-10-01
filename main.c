@@ -23,7 +23,6 @@ int main(){
 
 		else if(userNumber < randomNumber){
 			printf("Le nombre magique est plus grand!\n");
-			
 			}
 		printf("Ceci était votre essai n°%d.\n\n", count);
 		count++;
